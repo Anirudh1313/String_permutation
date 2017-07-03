@@ -59,7 +59,7 @@ string remove_spaces(string str)
 	return str;
 }
 
-bool check_permutation(string a, string b)  //without using brake statement
+bool check_permutation(string a, string b)  //without using break statement
 {
 	if(a.length() != b.length())
 		return false;
